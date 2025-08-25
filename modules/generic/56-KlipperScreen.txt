@@ -17,7 +17,8 @@ apt-get install -y \
     python3-kivy libmtdev-dev \
     libgl1-mesa-dev xinput x11-xserver-utils \
     libffi-dev libssl-dev \
-    libjpeg-dev zlib1g-dev
+    libjpeg-dev zlib1g-dev \
+    libcairo2-dev
 
 # Clone KlipperScreen repo if not already there
 if [ ! -d "${USER_HOME}/KlipperScreen" ]; then
